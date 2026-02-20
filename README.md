@@ -287,9 +287,9 @@ DMZ (Interface 3) :
 3. Configurer : Action : Pass / Protocol : Any / Source : Any / Destination : Any
 4. **Save** puis **Apply Changes**
 
-> **Capture 3.4** – Règle firewall LAN → Any
+> **Capture 3.2** – Règle firewall LAN → Any
 
-![Capture 3.4](3.4%20R%C3%A8gle%20firewall%20LAN%20%E2%86%92%20Any.png)
+![Capture 3.2](3.2%20R%C3%A8gle%20firewall%20LAN%20%E2%86%92%20Any.png)
 
 **B. Configuration de l'interface WAN**
 
