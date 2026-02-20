@@ -152,7 +152,7 @@ Mettre en place une infrastructure d'entreprise complète, comprenant :
 
 > **📸 Capture 1.1** – Page de connexion ESXi (`https://192.168.140.150`)
 
-![Capture 1.1 - Page de connexion ESXi](captures/1.1-esxi-login.png)
+![Capture 1.1](1.1%20Page%20de%20connexion%20ESXi.PNG)
 
 > **📸 Capture 1.2** – Dashboard ESXi avec version 8.x visible
 
