@@ -319,9 +319,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 
 ![Capture 3.5](3.5%20Dashboard%20Web%20pfSense.png)
 
-> **Capture 3.3** – Interfaces : WAN + LAN (192.168.20.1) + DMZ (192.168.30.1)
+> **Capture 3.6** – Interfaces : WAN + LAN (192.168.20.1) + DMZ (192.168.30.1)
 
-![Capture 3.3](3.3%20Interfaces%20%20WAN%20+%20LAN%20(192.168.20.1)%20+%20DMZ%20(192.168.30.1).png)
+![Capture 3.6](3.6%20Interfaces%20%20WAN%20+%20LAN%20(192.168.20.1)%20+%20DMZ%20(192.168.30.1).png)
 
 ---
 
