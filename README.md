@@ -150,13 +150,13 @@ Mettre en place une infrastructure d'entreprise complète, comprenant :
 5. Configurer DNS : `192.168.140.2`, `8.8.8.8`
 6. Hostname : `esxi01.entreprise.local`
 
-> **📸 Capture 1.1** – Page de connexion ESXi (`https://192.168.140.150`)
+> ** Capture 1.1** – Page de connexion ESXi (`https://192.168.140.150`)
 
 ![Capture 1.1](1.1%20Page%20de%20connexion%20ESXi.PNG)
 
-> **📸 Capture 1.2** – Dashboard ESXi avec version 8.x visible
+> ** Capture 1.2** – Dashboard ESXi avec version 8.x visible
 
-![Capture 1.2 - Dashboard ESXi](captures/1.2-esxi-dashboard.png)
+![Capture 1.2](1.2%20Dashboard%20ESXi%20avec%20version%208.x%20visible.png)
 
 > **📸 Capture 1.4** – Configuration réseau Management (IP 192.168.140.150)
 
