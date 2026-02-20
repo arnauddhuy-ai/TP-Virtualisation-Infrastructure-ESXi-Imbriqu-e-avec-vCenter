@@ -298,9 +298,9 @@ DMZ (Interface 3) :
 3. Décocher : *Block bogon networks*
 4. **Save** et **Apply Changes**
 
-> **Capture 3.6** – WAN : cases "Block private networks" décochées
+> **Capture 3.3** – WAN : cases "Block private networks" décochées
 
-![Capture 3.6](3.6%20WAN%20%20cases%20Block%20private%20networks%20d%C3%A9coch%C3%A9es.png)
+![Capture 3.3](3.3%20WAN%20%20cases%20Block%20private%20networks%20d%C3%A9coch%C3%A9es.png)
 
 **C. Configuration de l'interface DMZ**
 
