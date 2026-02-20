@@ -534,18 +534,16 @@ ping 8.8.8.8                # Test connectivité Internet
 curl http://localhost        # Test Apache local
 sudo ss -tlnp | grep 80     # Vérifier port HTTP
 ```
+> **Capture 7.2** – Tests de connectivité depuis le serveur Web DMZ (Ubuntu)
 
-**Capture 7.2** – Tests de connectivité depuis le serveur Web DMZ (Ubuntu)
-
-![Capture 7.2](2.%20Capture%20d'%C3%A9cran%202026-02-10%20141833.png)
+![Capture 7.2](7.2%20Tests%20de%20connectivité%20depuis%20le%20serveur%20Web%20DMZ%20(Ubuntu).png)
 
 Cette capture regroupe l'ensemble des tests de validation effectués directement depuis le serveur SRV-WEB-DMZ pour confirmer son isolation et son accès aux ressources nécessaires :
 
-- **Test 1 - Ping vers la passerelle : `ping 192.168.20.1` → Succès, confirme que le serveur peut joindre l'interface LAN du firewall pfSense pour le routage.
-- **Test 2 - Connectivité Internet : `ping 8.8.8.8` → Succès, confirme que la DMZ dispose d'un accès vers l'extérieur pour les mises à jour et les services.
-- **Test 3 - Test du service Web local : `curl http://localhost` → Succès, le serveur retourne bien la balise <h1>TP DMZ REUSSI</h1>, confirmant que le serveur Apache2 est fonctionnel.
-- **Test 4 - État des ports : `ss -tlnp | grep 80 → Le port 80` est bien en écoute (LISTEN), confirmant que le service est prêt à recevoir des requêtes HTTP.
-
+- Test 1 - Ping vers la passerelle : `ping 192.168.20.1` → Succès, confirme que le serveur peut joindre l'interface LAN du firewall pfSense pour le routage.
+- Test 2 - Connectivité Internet : `ping 8.8.8.8` → Succès, confirme que la DMZ dispose d'un accès vers l'extérieur pour les mises à jour et les services.
+- Test 3 - Test du service Web local : `curl http://localhost` → Succès, le serveur retourne bien la balise <h1>TP DMZ REUSSI</h1>, confirmant que le serveur Apache2  est fonctionnel.
+- Test 4 - État des ports : `ss -tlnp | grep 80` → Le port 80 est bien en écoute (LISTEN), confirmant que le service est prêt à recevoir des requêtes HTTP.
 
 ### 11.2 Validation de l'infrastructure
 
