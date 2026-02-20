@@ -150,15 +150,15 @@ Mettre en place une infrastructure d'entreprise complète, comprenant :
 5. Configurer DNS : `192.168.140.2`, `8.8.8.8`
 6. Hostname : `esxi01.entreprise.local`
 
-> ** Capture 1.1** – Page de connexion ESXi (`https://192.168.140.150`)
+> **Capture 1.1** – Page de connexion ESXi (`https://192.168.140.150`)
 
 ![Capture 1.1](1.1%20Page%20de%20connexion%20ESXi.PNG)
 
-> ** Capture 1.2** – Dashboard ESXi avec version 8.x visible
+> **Capture 1.2** – Dashboard ESXi avec version 8.x visible
 
 ![Capture 1.2](1.2%20Dashboard%20ESXi%20avec%20version%208.x%20visible.png)
 
-> ** Capture 1.3** – Configuration réseau Management (IP 192.168.140.150)
+> **Capture 1.3** – Configuration réseau Management (IP 192.168.140.150)
 
 ![Capture 1.3](1.3%20Configuration%20r%C3%A9seau%20Management%20(IP%20192.168.140.150).PNG)
 
@@ -169,7 +169,7 @@ Ajouter Disque 2 (200 Go) comme datastore. Dans ESXi Web UI :
 Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 → Nom : datastore-VM
 ```
 
-> ** Capture 1.4** – Datastore `datastore-VM` visible (200 Go)
+> **Capture 1.4** – Datastore `datastore-VM` visible (200 Go)
 
 !![Capture 1.4](1.4%20Datastore%20datastore-VM%20visible%20(200%20Go).PNG)
 
