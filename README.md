@@ -547,15 +547,6 @@ Cette capture regroupe l'ensemble des tests de validation effectués directement
 
 ### 11.2 Validation de l'infrastructure
 
-| Test                  | Résultat attendu                    |
-|-----------------------|-------------------------------------|
-| Ping LAN ↔ DMZ        | Succès depuis client                |
-| Ping DMZ → LAN        | Bloqué par pfSense (si configuré)   |
-| HTTP LAN → DMZ        | Page web accessible                 |
-| Résolution DNS        | `entreprise.local` résolu           |
-| vCenter accessible    | `https://192.168.140.155` répond    |
-| ESXi accessible       | `https://192.168.140.150` répond    |
-
 | Test | Résultat attendu | État |
 | :--- | :--- | :--- |
 | **Ping LAN ↔ DMZ** | Succès depuis le client Windows |  OK |
