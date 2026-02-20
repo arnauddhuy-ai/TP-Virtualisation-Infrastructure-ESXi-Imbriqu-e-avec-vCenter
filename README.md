@@ -345,9 +345,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 - Passerelle : `192.168.20.1`
 - DNS : `127.0.0.1` (après installation AD)
 
-> **📸 Capture 4.3** – `ipconfig /all` avec IP 192.168.20.10 et DNS 127.0.0.1
+> **Capture 4.3** – `ipconfig /all` avec IP 192.168.20.10 et DNS 127.0.0.1
 
-![Capture 4.3 - ipconfig SRV-AD-01](captures/4.3-winserver-ipconfig.png)
+![Capture 4.3](4.3%20ipconfig%20all%20avec%20IP%20192.168.20.10%20et%20DNS%20127.0.0.1.png)
 
 ### 8.3 Installation Active Directory
 
@@ -356,9 +356,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 3. Cocher **Services de domaine Active Directory (AD DS)**
 4. Cliquer sur **Installer**
 
-> **📸 Capture 4.1** – Gestionnaire de serveur avec rôle AD DS installé
+> **Capture 4.1** – Gestionnaire de serveur avec rôle AD DS installé
 
-![Capture 4.1 - AD DS installé](captures/4.1-winserver-adds.png)
+![Capture 4.1](4.1%20Gestionnaire%20de%20serveur%20avec%20r%C3%B4le%20AD%20DS%20install%C3%A9.PNG)
 
 ### 8.4 Promotion en contrôleur de domaine
 
@@ -369,9 +369,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 5. Définir le mot de passe de restauration (DSRM)
 6. Le serveur va redémarrer
 
-> **📸 Capture 4.2** – Console ADUC avec domaine `entreprise.local`
+> **Capture 4.2** – Console ADUC avec domaine `entreprise.local`
 
-![Capture 4.2 - ADUC](captures/4.2-winserver-aduc.png)
+![Capture 4.2](4.2%20Console%20ADUC%20avec%20domaine%20entreprise.local.PNG)
 
 ### 8.5 Configuration des redirecteurs DNS
 
@@ -381,13 +381,13 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
    - `192.168.20.1` (pfSense)
    - `8.8.8.8` (DNS Google)
 
-> **📸 Capture 4.4** – Console DNS avec zone `entreprise.local`
+> **Capture 4.4** – Console DNS avec zone `entreprise.local`
 
-![Capture 4.4 - DNS zone](captures/4.4-winserver-dns.png)
+![Capture 4.4](4.4%20Console%20DNS%20avec%20zone%20entreprise.local.png)
 
-> **📸 Capture 4.5** – Redirecteurs DNS configurés (192.168.20.1 + 8.8.8.8)
+> **Capture 4.5** – Redirecteurs DNS configurés (192.168.20.1 + 8.8.8.8)
 
-![Capture 4.5 - Redirecteurs DNS](captures/4.5-winserver-dns-redirecteurs.png)
+![Capture 4.5](4.5%20Redirecteurs%20DNS%20configur%C3%A9s%20(192.168.20.1%20+%208.8.8.8).png)
 
 ---
 
