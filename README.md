@@ -486,21 +486,21 @@ Vérification du service :
 sudo systemctl status apache2
 ```
 
-> **📸 Capture 6.1** – `sudo systemctl status apache2` → Active (running)
+> **Capture 6.1** – `sudo systemctl status apache2` → Active (running)
 
-![Capture 6.1 - Apache2 status](captures/6.1-ubuntu-apache-status.png)
+![Capture 6.1](6.1%20sudo%20systemctl%20status%20apache2%20%E2%86%92%20Active%20(running).png)
 
 ### 10.4 Test de validation
 
 Depuis CLI-WIN10-01 : ouvrir le navigateur → `http://192.168.30.10`
 
-> **📸 Capture 6.2** – Page web "TP DMZ REUSSI" depuis le navigateur
+> **Capture 6.2** – Page web "TP DMZ REUSSI" depuis le navigateur
 
-![Capture 6.2 - Page web DMZ](captures/6.2-ubuntu-webpage.png)
+![Capture 6.2](6.2%20Page%20web%20TP%20DMZ%20REUSSI%20depuis%20le%20navigateur.png)
 
-> **📸 Capture 6.3** – `ping 8.8.8.8` depuis Ubuntu → succès
+> **Capture 6.3** – `ping 8.8.8.8` depuis Ubuntu → succès
 
-![Capture 6.3 - Ping 8.8.8.8](captures/6.3-ubuntu-ping.png)
+![Capture 6.3](6.3%20ping%208.8.8.8%20depuis%20Ubuntu%20%E2%86%92%20succ%C3%A8s.png)
 
 ---
 
