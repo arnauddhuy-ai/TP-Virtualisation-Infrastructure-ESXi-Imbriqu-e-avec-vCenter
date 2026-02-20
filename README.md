@@ -412,9 +412,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 - Passerelle : `192.168.20.1`
 - DNS : `192.168.20.10`
 
-> **📸 Capture 5.1** – `ipconfig /all` avec IP 192.168.20.20 et DNS 192.168.20.10
+> **Capture 5.1** – `ipconfig /all` avec IP 192.168.20.20 et DNS 192.168.20.10
 
-![Capture 5.1 - ipconfig CLI-WIN10](captures/5.1-win10-ipconfig.png)
+![Capture 5.1](5.1%20ipconfig%20all%20avec%20IP%20192.168.20.20%20et%20DNS%20192.168.20.10.png)
 
 ### 9.3 Jonction au domaine
 
@@ -423,9 +423,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 3. Authentifier avec les identifiants AD
 4. Redémarrer le poste
 
-> **📸 Capture 5.2** – Jonction au domaine `entreprise.local` réussie
+> **Capture 5.2** – Jonction au domaine `entreprise.local` réussie
 
-![Capture 5.2 - Jonction domaine](captures/5.2-win10-domain-join.png)
+![Capture 5.2](5.2%20client%20Windows%2010%20%E2%86%92%20Jonction%20au%20domaine%20entreprise.local%20r%C3%A9ussie.png)
 
 ### 9.4 Vérification
 ```cmd
@@ -434,13 +434,13 @@ whoami
 
 Résultat attendu : `entreprise\utilisateur`
 
-> **📸 Capture 5.3** – `whoami` → `entreprise\jean.dupont`
+> **Capture 5.3** – `whoami` → `entreprise\jean.dupont`
 
-![Capture 5.3 - whoami](captures/5.3-win10-whoami.png)
+![Capture 5.3](5.3%20whoami%20%E2%86%92%20entreprise-jean.dupont.png)
 
-> **📸 Capture 5.4** – Ordinateur visible dans la console ADUC
+> **Capture 5.4** – Ordinateur visible dans la console ADUC
 
-![Capture 5.4 - ADUC Computers](captures/5.4-win10-aduc-computers.png)
+![Capture 5.4](5.4%20Ordinateur%20visible%20dans%20la%20console%20ADUC.png)
 
 ---
 
