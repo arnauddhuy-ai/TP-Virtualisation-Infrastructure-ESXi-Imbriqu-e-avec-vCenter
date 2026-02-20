@@ -306,9 +306,9 @@ DMZ (Interface 3) :
 
 Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add → Pass/Any`)
 
-> **Capture 3.5** – Règle firewall DMZ → Any
+> **Capture 3.4** – Règle firewall DMZ → Any
 
-![Capture 3.5](3.5%20R%C3%A8gle%20firewall%20DMZ%20%E2%86%92%20Any.png)
+![Capture 3.4](3.4%20R%C3%A8gle%20firewall%20DMZ%20%E2%86%92%20Any.png)
 
 ### 7.5 Accès à l'interface Web
 
