@@ -264,9 +264,9 @@ Dans vSphere : `Hôte → Configure → Networking → Port groups → Add Netwo
 - OPT1 (DMZ) : `vmx1`
 - Validation : Tapez `y`
 
-> **📸 Capture 3.1** – Console pfSense avec les 3 interfaces (WAN/LAN/OPT1)
+> **Capture 3.1** – Console pfSense avec les 3 interfaces (WAN/LAN/OPT1)
 
-![Capture 3.1 - Console pfSense](captures/3.1-pfsense-console.png)
+![Capture 3.1](3.1%20Console%20pfSense%20avec%20les%203%20interfaces%20(WANLANOPT1).png)
 
 **Configuration des adresses IP (Option 2)**
 
@@ -287,9 +287,9 @@ DMZ (Interface 3) :
 3. Configurer : Action : Pass / Protocol : Any / Source : Any / Destination : Any
 4. **Save** puis **Apply Changes**
 
-> **📸 Capture 3.4** – Règle firewall LAN → Any
+> **Capture 3.4** – Règle firewall LAN → Any
 
-![Capture 3.4 - Règle LAN](captures/3.4-pfsense-rule-lan.png)
+![Capture 3.4](3.4%20R%C3%A8gle%20firewall%20LAN%20%E2%86%92%20Any.png)
 
 **B. Configuration de l'interface WAN**
 
@@ -298,30 +298,30 @@ DMZ (Interface 3) :
 3. Décocher : *Block bogon networks*
 4. **Save** et **Apply Changes**
 
-> **📸 Capture 3.6** – WAN : cases "Block private networks" décochées
+> **Capture 3.6** – WAN : cases "Block private networks" décochées
 
-![Capture 3.6 - WAN pfSense](captures/3.6-pfsense-wan.png)
+![Capture 3.6](3.6%20WAN%20%20cases%20Block%20private%20networks%20d%C3%A9coch%C3%A9es.png)
 
 **C. Configuration de l'interface DMZ**
 
 Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add → Pass/Any`)
 
-> **📸 Capture 3.5** – Règle firewall DMZ → Any
+> **Capture 3.5** – Règle firewall DMZ → Any
 
-![Capture 3.5 - Règle DMZ](captures/3.5-pfsense-rule-dmz.png)
+![Capture 3.5](3.5%20R%C3%A8gle%20firewall%20DMZ%20%E2%86%92%20Any.png)
 
 ### 7.5 Accès à l'interface Web
 
 - URL : `https://192.168.20.1`
 - Utilisateur : `admin` / Mot de passe : `P@ssword123`
 
-> **📸 Capture 3.2** – Dashboard Web pfSense
+> **Capture 3.2** – Dashboard Web pfSense
 
-![Capture 3.2 - Dashboard pfSense](captures/3.2-pfsense-dashboard.png)
+![Capture 3.2](3.2%20Dashboard%20Web%20pfSense.png)
 
-> **📸 Capture 3.3** – Interfaces : WAN + LAN (192.168.20.1) + DMZ (192.168.30.1)
+> **Capture 3.3** – Interfaces : WAN + LAN (192.168.20.1) + DMZ (192.168.30.1)
 
-![Capture 3.3 - Interfaces pfSense](captures/3.3-pfsense-interfaces.png)
+![Capture 3.3](3.3%20Interfaces%20%20WAN%20+%20LAN%20(192.168.20.1)%20+%20DMZ%20(192.168.30.1).png)
 
 ---
 
