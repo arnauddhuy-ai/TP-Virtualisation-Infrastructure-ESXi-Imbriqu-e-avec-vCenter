@@ -526,7 +526,7 @@ sudo ss -tlnp | grep 80     # Vérifier port HTTP
 
 > **Capture 7** – Tests de validation réseau (Connectivité LAN, DMZ et résolution DNS)
 
-![Capture 7](7%20Tests%20de%20validation%20r%C3%A9seau%20%20Connectivit%C3%A9%20LAN,%20DMZ%20et%20r%C3%A9solution%20DNS.png)
+![Capture 7]
 
 Cette capture regroupe l'ensemble des tests de validation de l'infrastructure réseau depuis le poste client CLI-WIN10-01 :
 
