@@ -706,4 +706,4 @@ Ce TP vous a permis de mettre en place une infrastructure d'entreprise complète
 
 Cette infrastructure constitue la base d'une architecture d'entreprise moderne et vous permet de comprendre les concepts essentiels de la virtualisation, de la segmentation réseau et de la sécurité informatique.
 
-**Félicitations pour avoir complété ce TP ! 🎉**
+**Félicitations pour avoir complété ce TP !**
