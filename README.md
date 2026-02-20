@@ -315,9 +315,9 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 - URL : `https://192.168.20.1`
 - Utilisateur : `admin` / Mot de passe : `P@ssword123`
 
-> **Capture 3.2** – Dashboard Web pfSense
+> **Capture 3.5** – Dashboard Web pfSense
 
-![Capture 3.2](3.2%20Dashboard%20Web%20pfSense.png)
+![Capture 3.5](3.5%20Dashboard%20Web%20pfSense.png)
 
 > **Capture 3.3** – Interfaces : WAN + LAN (192.168.20.1) + DMZ (192.168.30.1)
 
