@@ -614,9 +614,9 @@ Utilité :
    - Cocher : *Quiesce guest file system*
 4. Cliquer sur **OK**
 
-> **📸 Capture 9.1** – Création du snapshot (fenêtre Take Snapshot)
+> **Capture 9.1** – Création du snapshot (fenêtre Take Snapshot)
 
-![Capture 9.1 - Take Snapshot](captures/9.1-snapshot-create.png)
+![Capture 9.1](9.1%20Cr%C3%A9ation%20du%20snapshot%20(fen%C3%AAtre%20Take%20Snapshot).PNG)
 
 ### 13.3 Restaurer un snapshot
 
@@ -624,13 +624,13 @@ Utilité :
 2. Sélectionner le snapshot désiré
 3. Cliquer sur **Restore** → Confirmer avec **Yes**
 
-> **📸 Capture 9.2** – Gestionnaire de snapshots avec snapshot visible
+> **Capture 9.2** – Gestionnaire de snapshots avec snapshot visible
 
-![Capture 9.2 - Manage Snapshots](captures/9.2-snapshot-manager.png)
+![Capture 9.2](9.2%20Gestionnaire%20de%20snapshots%20avec%20snapshot%20visible.PNG)
 
-> **📸 Capture 9.3** – Snapshot restauré avec succès
+> **Capture 9.3** – Snapshot restauré avec succès
 
-![Capture 9.3 - Snapshot restauré](captures/9.3-snapshot-restored.png)
+![Capture 9.3](9.3%20Snapshot%20restaur%C3%A9%20avec%20succ%C3%A8s.%20V%C3%A9rification%20du%20rollback.PNG)
 
 ### 13.4 Bonnes pratiques
 
