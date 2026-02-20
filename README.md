@@ -516,14 +516,6 @@ nslookup entreprise.local   # Test DNS
 tracert 192.168.30.10       # Trace du chemin réseau
 ```
 
-Depuis Ubuntu DMZ :
-```bash
-ping 192.168.20.1           # Test vers pfSense DMZ
-ping 8.8.8.8                # Test connectivité Internet
-curl http://localhost        # Test Apache local
-sudo ss -tlnp | grep 80     # Vérifier port HTTP
-```
-
 > **Capture 7.1** – Tests de validation réseau (Connectivité LAN, DMZ et résolution DNS)
 
 ![Capture 7.1](7.1%20Tests%20de%20validation%20r%C3%A9seau%20%20Connectivit%C3%A9%20LAN,%20DMZ%20et%20r%C3%A9solution%20DNS.png)
@@ -534,6 +526,26 @@ Cette capture regroupe l'ensemble des tests de validation de l'infrastructure r�
 - **Test 2 - Ping LAN → DMZ** : `ping 192.168.30.10` → Succès, confirme que le trafic traverse correctement le firewall pfSense vers la zone DMZ (VLAN 30).
 - **Test 3 - Résolution DNS** : `nslookup entreprise.local` → Résolution réussie, confirme le bon fonctionnement du serveur DNS Active Directory.
 - **Test 4 - Traceroute** : `tracert 192.168.30.10` → Le chemin passe par `192.168.20.1` (pfSense), confirmant le routage inter-VLAN via le firewall.
+
+Depuis Ubuntu DMZ :
+```bash
+ping 192.168.20.1           # Test vers pfSense DMZ
+ping 8.8.8.8                # Test connectivité Internet
+curl http://localhost        # Test Apache local
+sudo ss -tlnp | grep 80     # Vérifier port HTTP
+```
+
+**Capture 7.2** – Tests de connectivité depuis le serveur Web DMZ (Ubuntu)
+
+![Capture 7.2](2.%20Capture%20d'%C3%A9cran%202026-02-10%20141833.png)
+
+Cette capture regroupe l'ensemble des tests de validation effectués directement depuis le serveur SRV-WEB-DMZ pour confirmer son isolation et son accès aux ressources nécessaires :
+
+- **Test 1 - Ping vers la passerelle : `ping 192.168.20.1` → Succès, confirme que le serveur peut joindre l'interface LAN du firewall pfSense pour le routage.
+- **Test 2 - Connectivité Internet : `ping 8.8.8.8` → Succès, confirme que la DMZ dispose d'un accès vers l'extérieur pour les mises à jour et les services.
+- **Test 3 - Test du service Web local : `curl http://localhost` → Succès, le serveur retourne bien la balise <h1>TP DMZ REUSSI</h1>, confirmant que le serveur Apache2 est fonctionnel.
+- **Test 4 - État des ports : `ss -tlnp | grep 80 → Le port 80` est bien en écoute (LISTEN), confirmant que le service est prêt à recevoir des requêtes HTTP.
+
 
 ### 11.2 Validation de l'infrastructure
 
