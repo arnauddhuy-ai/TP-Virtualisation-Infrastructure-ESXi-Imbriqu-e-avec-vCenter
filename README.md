@@ -556,6 +556,15 @@ Cette capture regroupe l'ensemble des tests de validation effectués directement
 | vCenter accessible    | `https://192.168.140.155` répond    |
 | ESXi accessible       | `https://192.168.140.150` répond    |
 
+| Test | Résultat attendu | État |
+| :--- | :--- | :--- |
+| **Ping LAN ↔ DMZ** | Succès depuis le client Windows |  OK |
+| **Ping DMZ → LAN** | Bloqué par pfSense (Isolation) |  OK |
+| **HTTP LAN → DMZ** | Page "TP DMZ REUSSI" accessible |  OK |
+| **Résolution DNS** | `entreprise.local` résolu par l'AD |  OK |
+| **Accès vCenter** | `https://192.168.140.155` opérationnel |  OK |
+| **Accès ESXi** | `https://192.168.140.150` & `...151` répondent |  OK |
+
 ---
 
 ## 12. VMotion - Migration à chaud (Optionnel)
