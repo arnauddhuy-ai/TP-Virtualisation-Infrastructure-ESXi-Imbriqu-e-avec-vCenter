@@ -571,22 +571,22 @@ Cette capture regroupe l'ensemble des tests de validation de l'infrastructure r�
 5. Vérifier les réseaux / Priorité : Élevée
 6. **Terminer**
 
-> **📸 Capture 8.1** – Paramétrage de la migration vMotion
+> **Capture 8.1** – Paramétrage de la migration vMotion
 
-![Capture 8.1 - vMotion paramétrage](captures/8.1-vmotion-setup.png)
+![Capture 8.1](8.1%20vSphere%20Client%20%20Param%C3%A9trage%20de%20la%20migration%20vMotion..png)
 
-> **📸 Capture 8.2** – Assistant de migration lancé (type : calcul + stockage)
+> **Capture 8.2** – Assistant de migration lancé (type : calcul + stockage)
 
-![Capture 8.2 - vMotion assistant](captures/8.2-vmotion-assistant.png)
+![Capture 8.2](8.2%20Assistant%20de%20migration%20lanc%C3%A9%20(type%20%20calcul%20+%20stockage).png)
 
 ### 12.4 Vérification
 
 - La tâche *Relocate VM* doit être à 100%
 - La VM doit apparaître sous l'hôte `.151`
 
-> **📸 Capture 8.3** – VM affichée sous l'hôte .151 après migration
+> **Capture 8.3** – VM affichée sous l'hôte .151 après migration
 
-![Capture 8.3 - VM après migration](captures/8.3-vmotion-result.png)
+![Capture 8.3](8.3%20VM%20affich%C3%A9e%20sous%20l'h%C3%B4te%20.151%20apr%C3%A8s%20migration.png)
 
 ---
 
@@ -601,7 +601,7 @@ Utilité :
 - Tester une mise à jour (rollback si problème)
 - Créer des points de restauration
 
-> ⚠️ **Attention :** Les snapshots ne sont PAS des sauvegardes ! Ne pas les conserver longtemps (impact performance).
+> **Attention :** Les snapshots ne sont PAS des sauvegardes ! Ne pas les conserver longtemps (impact performance).
 
 ### 13.2 Création d'un snapshot
 
