@@ -205,9 +205,9 @@ Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 →
 - Username : `administrator@vsphere.local`
 - Password : `P@ssword123`
 
-> **📸 Capture 2.1** – Interface vSphere Client connectée
+> **Capture 2.1** – Interface vSphere Client connectée
 
-![Capture 2.1 - vSphere Client](captures/2.1-vcenter-login.png)
+![Capture 2.1](2.1%20Interface%20vSphere%20Client%20connect%C3%A9e.PNG)
 
 ### 6.4 Configuration des Port Groups (VLANs)
 
@@ -220,17 +220,17 @@ Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 →
 
 Dans vSphere : `Hôte → Configure → Networking → Port groups → Add Networking`
 
-> **📸 Capture 2.2** – Datacenter `Lab-Entreprise` créé
+> **Capture 2.2** – Datacenter `Lab-Entreprise` créé
 
-![Capture 2.2 - Datacenter](captures/2.2-vcenter-datacenter.png)
+![Capture 2.2](2.2%20Datacenter%20Lab-Entreprise%20cr%C3%A9%C3%A9.PNG)
 
-> **📸 Capture 2.3** – Hôte ESXi ajouté sous le Datacenter
+> **Capture 2.3** – Hôte ESXi ajouté sous le Datacenter
 
-![Capture 2.3 - Hôte ESXi](captures/2.3-vcenter-host.png)
+![Capture 2.3](2.3%20H%C3%B4te%20ESXi%20ajout%C3%A9%20sous%20le%20Datacenter.PNG)
 
-> **📸 Capture 2.4** – Les 4 Port Groups créés (LAN-VLAN20, DMZ-VLAN30, WAN-VLAN99, Management)
+> **Capture 2.4** – Les 4 Port Groups créés (LAN-VLAN20, DMZ-VLAN30, WAN-VLAN99, Management)
 
-![Capture 2.4 - Port Groups](captures/2.4-vcenter-portgroups.png)
+![Capture 2.4](2.4%20Les%204%20Port%20Groups%20cr%C3%A9%C3%A9s%20(LAN-VLAN20,%20DMZ-VLAN30,%20WAN-VLAN99,%20Management).PNG)
 
 ---
 
