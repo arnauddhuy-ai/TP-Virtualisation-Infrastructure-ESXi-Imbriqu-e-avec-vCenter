@@ -368,6 +368,7 @@ Répéter la même procédure que pour le LAN (`Firewall > Rules > DMZ → Add �
 4. Nom de domaine racine : `entreprise.local`
 5. Définir le mot de passe de restauration (DSRM)
 6. Le serveur va redémarrer
+7. Vérification de l'inventaire : Ouvrir la console Utilisateurs et ordinateurs Active Directory (ADUC) et vérifier dans le dossier Computers que l'ordinateur client (CLI-WIN10-01) est bien listé, confirmant ainsi la communication entre le client et le domaine.
 
 > **Capture 4.3** – Console ADUC avec domaine `entreprise.local`
 
