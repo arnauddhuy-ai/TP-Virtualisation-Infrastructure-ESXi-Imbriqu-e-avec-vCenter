@@ -158,7 +158,7 @@ Mettre en place une infrastructure d'entreprise complète, comprenant :
 
 ![Capture 1.2](1.2%20Dashboard%20ESXi%20avec%20version%208.x%20visible.png)
 
-> **📸 Capture 1.4** – Configuration réseau Management (IP 192.168.140.150)
+> ** Capture 1.4** – Configuration réseau Management (IP 192.168.140.150)
 
 ![Capture 1.4](1.4%20Configuration%20r%C3%A9seau%20Management%20(IP%20192.168.140.150).PNG)
 
@@ -169,7 +169,7 @@ Ajouter Disque 2 (200 Go) comme datastore. Dans ESXi Web UI :
 Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 → Nom : datastore-VM
 ```
 
-> **📸 Capture 1.3** – Datastore `datastore-VM` visible (200 Go)
+> ** Capture 1.3** – Datastore `datastore-VM` visible (200 Go)
 
 !![Capture 1.3](1.3%20Datastore%20datastore-VM%20visible%20(200%20Go).PNG)
 
