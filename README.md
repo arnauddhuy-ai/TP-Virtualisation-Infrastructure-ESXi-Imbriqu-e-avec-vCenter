@@ -540,7 +540,7 @@ sudo ss -tlnp | grep 80     # Vérifier port HTTP
 
 Cette capture regroupe l'ensemble des tests de validation effectués directement depuis le serveur SRV-WEB-DMZ pour confirmer son isolation et son accès aux ressources nécessaires :
 
-- **Test 1 - Ping LAN → AD** : `ping 192.168.20.10` → Succès, confirme la connectivité entre le client et le contrôleur de domaine sur le VLAN 20.
+- **Test 1 - Ping vers la passerelle : ping 192.168.20.1 → Succès, confirme que le serveur peut joindre l'interface LAN du firewall pfSense pour le routage.
 - **Test 2 - Ping LAN → DMZ** : `ping 192.168.30.10` → Succès, confirme que le trafic traverse correctement le firewall pfSense vers la zone DMZ (VLAN 30).
 - **Test 3 - Résolution DNS** : `nslookup entreprise.local` → Résolution réussie, confirme le bon fonctionnement du serveur DNS Active Directory.
 - **Test 4 - Traceroute** : `tracert 192.168.30.10` → Le chemin passe par `192.168.20.1` (pfSense), confirmant le routage inter-VLAN via le firewall.
