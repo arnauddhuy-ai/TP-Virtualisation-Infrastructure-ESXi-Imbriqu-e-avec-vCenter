@@ -40,7 +40,7 @@ Configuration complète : ESXi, vCenter, pfSense, Active Directory
 - VMware Workstation Pro 17+
 - ISO VMware ESXi 8.x
 - ISO vCenter Server Appliance 8.x (VCSA)
-- ISO pfSense 2.7+
+- ISO pfSense 2.6.0
 - ISO Windows Server 2022
 - ISO Windows 10/11 ou Ubuntu Desktop
 - ISO Ubuntu Server 22.04 ou Debian 12
