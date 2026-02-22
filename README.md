@@ -240,7 +240,7 @@ Dans vSphere : `Hôte → Configure → Networking → Port groups → Add Netwo
 
 1. Connecte-toi à ton vCenter
 2. Va dans `Storage → datastore-VM → Files → New Folder` (nommer : ISO)
-3. Upload `pfSense-CE-2.7.2-RELEASE-amd64.iso`
+3. Upload `pfSense-CE-2.6.0-RELEASE-amd64.iso`
 
 ### 7.2 Création de la VM pfSense
 
@@ -252,7 +252,7 @@ Dans vSphere : `Hôte → Configure → Networking → Port groups → Add Netwo
 | NIC 1 (WAN)  | WAN-VLAN99           |
 | NIC 2 (LAN)  | LAN-VLAN20           |
 | NIC 3 (DMZ)  | DMZ-VLAN30           |
-| ISO          | pfSense-CE-2.7.2.iso |
+| ISO          | pfSense-CE-2.6.0.iso |
 
 ### 7.3 Installation et Configuration
 
