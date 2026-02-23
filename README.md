@@ -171,7 +171,7 @@ Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 →
 
 > **Capture 1.4** – Datastore `Datastore-VM` visible (200 Go)
 
-!![Capture 1.4](1.4%20Datastore%20datastore-VM%20visible%20(200%20Go).PNG)
+![Capture 1.4](1.4%20Datastore%20datastore-VM%20visible%20(200%20Go).PNG)
 
 ---
 
