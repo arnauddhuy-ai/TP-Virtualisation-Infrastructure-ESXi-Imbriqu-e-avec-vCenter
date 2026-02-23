@@ -260,8 +260,8 @@ Dans vSphere : `Hôte → Configure → Networking → Port groups → Add Netwo
 
 - VLANs : Tapez `n`
 - WAN : `vmx0`
-- LAN : `vmx2`
-- OPT1 (DMZ) : `vmx1`
+- LAN : `vmx1`
+- OPT1 (DMZ) : `vmx2`
 - Validation : Tapez `y`
 
 > **Capture 3.1** – Console pfSense avec les 3 interfaces (WAN/LAN/OPT1)
