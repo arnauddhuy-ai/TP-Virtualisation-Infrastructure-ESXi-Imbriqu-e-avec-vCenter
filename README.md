@@ -169,9 +169,9 @@ Ajouter Disque 2 (200 Go) comme datastore. Dans ESXi Web UI :
 Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 → Nom : datastore-VM
 ```
 
-> **Capture 1.4** – Datastore `datastore-VM` visible (200 Go)
+> **Capture 1.4** – Datastore `Datastore-VM` visible (200 Go)
 
-!![Capture 1.4](1.4%20Datastore%20datastore-VM%20visible%20(200%20Go).PNG)
+!![Capture 1.4](1.4%20Datastore%20Datastore-VM%20visible%20(200%20Go).PNG)
 
 ---
 
@@ -183,7 +183,7 @@ Storage → Datastores → New Datastore → VMFS → Sélectionner Disque 2 →
 2. Depuis ton PC hôte → `vcsa-ui-installer\win32\installer.exe`
 3. Stage 1 : déployer sur ESXi
    - IP : `192.168.140.155`
-   - Datastore : `datastore-VM`
+   - Datastore : `Datastore-VM`
    - Deployment Size : Tiny
 
 ### 6.2 Stage 2 – Configuration de vCenter
